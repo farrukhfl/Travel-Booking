@@ -1,0 +1,47 @@
+{
+  "name": "travel-booking",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.3.4",
+    "@next-auth/prisma-adapter": "^1.0.7",
+    "@plaiceholder/next": "^3.0.0",
+    "@prisma/client": "^5.10.2",
+    "@stripe/stripe-js": "^3.0.7",
+    "@tanstack/react-query": "^5.24.8",
+    "axios": "^1.6.7",
+    "bcryptjs": "^2.4.3",
+    "currency-formatter": "^1.5.9",
+    "date-fns": "^3.3.1",
+    "mongodb": "^6.4.0",
+    "next": "14.1.0",
+    "next-auth": "^4.24.6",
+    "plaiceholder": "^3.0.0",
+    "prisma": "^5.10.2",
+    "react": "^18",
+    "react-date-range": "^2.0.0-alpha.4",
+    "react-dom": "^18",
+    "react-hook-form": "^7.51.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.0.1",
+    "react-loader-spinner": "^6.1.6",
+    "react-paginate": "^8.2.0",
+    "react-spinners": "^0.13.8",
+    "stripe": "^14.19.0",
+    "swiper": "^11.0.7",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
+  }
+}
